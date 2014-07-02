@@ -4,10 +4,27 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
 
-.contact ul >li {
+.project ul > li {
+    list-style: none;
+}
+
+.project-links ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.contact ul > li {
     display: inline-block;
     text-decoration: none;
     padding: 30px;
+    // margin: 0px, auto;
+}
+.contact ul {
+    // display: inline-block;
+    // text-decoration: none;
+    // padding: 30px;
     margin: 0px, auto;
 }
 

@@ -14,6 +14,7 @@
 
     <!-- Custom CSS for the 'One Page Wonder' Template -->
     <link href="styles/one-hit.css" rel="stylesheet">
+    <script src="../bower_components/modernizr/modernizr.js"></script>
 </head>
 
 <body>
@@ -63,14 +64,24 @@
 
         <hr class="featurette-divider">
 
-        <div class="featurette" id="about">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="images/beach-lover-cover.png">
             <h2 class="featurette-heading">Beach Lover App
                 <!-- <span class="text-muted">Been missing ya</span> -->
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Beach Lover is an app designed for beach goers to plan their most excellent beach experience. </p>
+            <p>Beach Lover geolocates users, reveals nearby beaches and displays beach features alongside today's hourly weather at each location.</p>
 
-            <div class="project-links">
+            <div class="project well">
+	            <h3>Frameworks:</h3>
+	            <ul>
+	            	<li>Javascript, jQuery, Angular.js, Twitter Bootstrap</li>
+	            	<li>HTML 5 Geolocation</li>
+	            	<li>Leaflet.js</li>
+	            	<li>Marine Weather API</li>
+	            </ul>
+            </div>
+			<div class="project-links">
             	<ul>
             		<li><a href="https://github.com/brookebc/gitNgbeachy"><img src="images/blackoctocat.png"></img></a></li>
             		<li>Deployed APP coming soon!</li>
@@ -80,14 +91,23 @@
 
         <hr class="featurette-divider">
 
-        <div class="featurette" id="services">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-left" src="images/dogs-life.jpg">
-            <h2 class="featurette-heading">Local Explorer App
+            <h2 class="featurette-heading">Explorer App
                 <!-- <span class="text-muted">Is Pretty Cool Too.</span> -->
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">The Explorer App is designed to help adventurers find nearby outdoors experiences.</p>
 
+            <div class="project well">
+            	<h3>Frameworks:</h3>
+            	<ul>
+            	<li>Javascript, jQuery, underscore.js</li>
+            	<li>HTML5 Geolocation</li>
+            	<li>Google Maps API</li>
+            	</ul>
+            </div>
             <div class="project-links">
+            
             	<ul>
             		<li><a href="https://github.com/brookebc/docksiders"><img src="images/blackoctocat.png"></img></a></li>
             		<li>Deployed APP coming soon!</li>
@@ -158,8 +178,22 @@
     <!-- /container -->
 
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!--<script src="js/jquery-1.10.2.js"></script> -->
+    <!--<script src="js/bootstrap.js"></script> -->
+     <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="scripts/main.js"></script>
 
 </body>
 
