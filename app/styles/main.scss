@@ -3,6 +3,40 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 // bower:scss
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
+.green-button {
+    color: #58ad52;
+}
+
+.teal-button {
+    color: #2da4af;
+}
+
+.rotate {
+/* Safari */
+-webkit-transform: rotate(-90deg);
+/* Firefox */
+-moz-transform: rotate(-90deg);
+/* IE */
+-ms-transform: rotate(-90deg);
+/* Opera */
+-o-transform: rotate(-90deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.dotted {
+        border: 2px dotted #d5cdcd; 
+        border-style: none none dotted; 
+        color: #fff; 
+        background-color: #fff; 
+
+}
+
+h6 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    padding: 10px, auto, 20px, auto;
+}
 
 .project ul > li {
     list-style: none;
